@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #171755;
+}
+.container {
+  width: 900px;
+  margin: 20px   auto;
+  padding: 0px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav ul {
+  margin-top: 2px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 35%;
+}
+nav li {
+  font-size: 16px;
+}
+.intro .primerImg {
+  width: 100%;
+  border-radius: 20px;
+}
+.intro .primerImg,
+h2 {
+  font-size: 35px;
+}
+section img {
+  width: 30%;
+  margin-left: 19px;
+  border-radius: 50px;
+}
+.actual {
+  display: flex;
+  border-top: 2px solid #9c9595;
+}
+section .actual-text {
+  width: 40%;
+  margin: 30px;
+}
+section .actual-text h3 {
+  font-size: 35px;
+}
+section .btn {
+  width: 75px;
+  font-size: 15px;
+  margin-right: 60%;
+  background: #1a1a20;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  transition: all 1s ease;
+}
+section .btn:hover {
+  background: #9c9595;
+}
+section .actual-img img {
+  border-radius: 10px;
+  width: 100% ;
+  margin-top: 20% ;
+  margin-left: 50px ;
+}
+footer p {
+  background: #fff;
+  text-align: center;
+  color: #000;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e0dbdb;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+footer p:hover {
+  background: #d9f100;
+}
